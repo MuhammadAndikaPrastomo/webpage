@@ -1,0 +1,56 @@
+<html>
+<head>
+<b><title>Form Mahasiswa</title>
+</head>
+<body background="bc.jpg">
+<body>
+<pre style="font-size:36px"> <img src="logo um copy transparant 600px.png" width="150" height="150" align="absmiddle">     	      Form Mahasiswa
+		 Universitas Negeri Malang</pre>
+<hr color="red">
+
+<fieldset style="background-color:#FF0000" > 
+<form method="POST" action="proses.php">
+<p align="center">SILAHKAN ISI DATA ANDA</p> 
+<input type="hidden" name="halaman" value="1">
+<table border="1" align="center" bgcolor="#0000FF">
+<tr>
+<td><label for="nama">Nama Lengkap	:</label></td>
+<td><input type="text" name="nama" id="nama"  maxlength="30" size="43"></td>
+</tr>
+<tr>
+<td><label for="nim">NIM	:</label></td>
+<td><input type="text" name="nim" id="nim"  maxlength="12" size="43"></td>
+</tr>
+<tr>
+<td><label for="jur/prodi">Jurusan / Prodi	:</label></td>
+<td><input type="text" name="jur/prodi" id="jur/prodi"  maxlength="40" size="43"></td>
+</tr>
+<tr>
+<td><label for="tgllahr">Tanggal Lahir	:</label></td>
+<td><select><option value="">--Tanggal--</option><option>01</option><option>02</option><option>03</option><option>04</option><option>05</option><option>06</option><option>07</option><option>08</option><option>09</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option></select> <select><option value="">----Bulan----</option><option>Januari</option><option>Februari</option><option>Maret</option><option>April</option><option>Mei</option><option>Juni</option><option>Juli</option><option>Agustus</option><option>September</option><option>Oktober</option><option>November</option><option>Desember</option></select> <select><option value="">---Tahun---</option><option>1985</option><option>1986</option><option>1987</option><option>1988</option><option>1989</option><option>1990</option><option>1991</option><option>1992</option><option>1993</option><option>1994</option><option>1995</option></select></td>
+</tr>
+<tr>
+<td><label for="jenkel">Jenis Kelamin	:</label></td>
+<td><input type="radio" name="jenkel" id="jenkel" value="L">Laki-laki<br>
+<input type="radio" name="jenkel" id="jenkel" value="P">Perempuan</td>
+</tr>
+<tr>
+<td><label for="alamat">Alamat	:</label></td>
+<td><textarea rows="3" cols="41\"
+name="alamat" id="alamat"></textarea></td>
+</tr>
+<tr>
+<td><label for="benar">Sudah Benar?</label></td>
+<td><input type="checkbox"
+name="benar" id="benar">Sudah</td>
+</tr>
+</table>
+<p align="center"> <input type="submit" value=" Kirim " align="middle">
+<input type="reset" value="Reset"></p>
+</form>
+</fieldset>
+
+<hr color="#FF0000">
+<marquee> <font color="#FF0000"> <font size="+2">@Copyright 2013, Muhammad Andika Prastomo (110533430566)</marquee>
+</body>
+</html>
